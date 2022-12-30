@@ -16,14 +16,14 @@ export default {
 
 <style scoped lang="css">
 section.hero {
-    padding: 2.5rem 1.75rem 6.75rem 1.75rem;
+    padding: 2.5rem 1.75rem;
 }
 h1 {
     font-size: 1.75rem;
     font-weight: bold;
     line-height: 1.2;
 }
-@media (min-width: 385px) {
+@media (min-width: 392px) {
     section.hero {
         padding: 12rem 0 5.75rem 0;
     }
