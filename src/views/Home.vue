@@ -16,7 +16,7 @@ export default {
 
 <style scoped lang="css">
 section.hero {
-    padding: 6.75rem 1.75rem;
+    padding: 2.5rem 1.75rem 6.75rem 1.75rem;
 }
 h1 {
     font-size: 1.75rem;
