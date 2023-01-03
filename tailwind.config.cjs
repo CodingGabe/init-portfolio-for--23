@@ -13,9 +13,6 @@ module.exports = {
       '4': '4px',
       '6': '6px'
     },
-    colors: {
-      'onyx': 'rgb(22, 22, 22)'
-    },
     extend: {},
   },
   plugins: [],
