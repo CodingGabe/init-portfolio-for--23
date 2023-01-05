@@ -4,9 +4,9 @@
     <div class="top-0 absolute left-0 w-full bg-topbar"></div>
     <router-link to="/"><span class="px-3 py-1 pb-2 rounded-md transition-all sm:px-6 sm:py-2">Home</span></router-link>
     <div class="flex items-center gap-1 sm:gap-2">
-        <router-link to="/about"><span class="px-3 py-1 pb-2 rounded-md transition-all sm:px-6 sm:py-2">About</span></router-link>
-        <router-link to="/projects"><span class="px-3 py-1 pb-2 rounded-md transition-all sm:px-6 sm:py-2">Projects</span></router-link>
-        <router-link to="/shop"><span class="px-3 py-1 pb-2 rounded-md transition-all sm:px-6 sm:py-2">Shop</span></router-link>
+        <router-link to="/about"><span class="px-3 py-1 pb-2 pt-2 rounded-md transition-all sm:px-6 sm:py-2">About</span></router-link>
+        <router-link to="/projects"><span class="px-3 py-1 pb-2 pt-2 rounded-md transition-all sm:px-6 sm:py-2">Projects</span></router-link>
+        <router-link to="/shop"><span class="px-3 py-1 pb-2 pt-2 rounded-md transition-all sm:px-6 sm:py-2">Shop</span></router-link>
     </div>
   </nav>
 </template>
