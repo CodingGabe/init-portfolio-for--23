@@ -35,4 +35,8 @@ export default {
     padding-top: 0;
 }
 
+h3 {
+    font-size: 1.4rem;
+}
+
 </style>

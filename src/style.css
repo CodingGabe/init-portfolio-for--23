@@ -20,8 +20,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
+h1, h2, h3, h4 {
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 section {
-  padding: 6.25rem 0 3.75rem 0;
+  padding: 3.75rem 0;
 }
 
 .border-light {
