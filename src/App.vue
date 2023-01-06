@@ -10,12 +10,16 @@
   <navigation />
   <!-- Container with Home Page -->
   <div class="container">
-    <router-view></router-view>
+      <router-view v-slot="{Component}">
+        <transition name="fade" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
   </div>
 
 </template>
 
-<style scoped>
+<style lang="css">
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -26,5 +30,13 @@
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
