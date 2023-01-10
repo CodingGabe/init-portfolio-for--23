@@ -13,7 +13,12 @@ module.exports = {
       '4': '4px',
       '6': '6px'
     },
-    extend: {},
+    extend: {
+      colors: {
+        'rich-black': '#050505',
+        'dusk': '#202022',
+      }
+    },
   },
   plugins: [],
 }

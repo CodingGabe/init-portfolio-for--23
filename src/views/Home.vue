@@ -23,7 +23,7 @@
                 </a>
             </div>
             <!-- Contact Button -->
-            <a href="mailto:gabeamaya2@gmail.com" class="bg-rose-500 hover:bg-rose-700 px-2 py-2 rounded-sm w-fit md:px-4 slg:px-6 slg:py3 transition-colors">Contact Me</a>
+            <a href="mailto:gabeamaya2@gmail.com" class="bg-rich-black hover:bg-zinc-900 px-2 py-2 rounded-sm w-fit md:px-4 slg:px-6 slg:py3 transition-colors border-0">Contact Me</a>
         </div>
         <hr class="border-0 h-[4px] opacity-25">
         <featured-projects />
@@ -65,10 +65,12 @@ h1 {
     font-weight: normal;
     color: rgb(161 161 170);
 }
-@media (min-width: 392px) {
+@media (min-width: 640px) {
     section.hero {
-        padding: 12rem 0 5.75rem 0;
+        padding: 8rem 0 5.75rem 0;
     }
+}
+@media (min-width: 392px) {
     h1 {
         font-size: 3.75rem;
     }
